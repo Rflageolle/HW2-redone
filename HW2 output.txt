@@ -1,0 +1,57 @@
+Please enter the name of the File containing the List of Countries: 
+/Users/ryanflage/Desktop/countries_data.txt
+This program allows you to choose one of 4 operations: 
+1 - Display the countries that border another Country. 
+2 - Display all countries that have a population greater than a given population. 
+3 - Display the countries that border another Country with a population greater than a given population. 
+4 - Quit the program. 
+
+To select the program simply type the number corresponding to the operation you want to be completed and then follow the instructions 
+on screen. (When entering Countries use upper-case first letter followed by lower-case form) 
+------------------------------------------------------------------------------------------------- 
+
+
+Which Operation would you like to perform: 1
+Which country's borders would you like to see? 
+Germany
+
+Countries that border Germany(0):
+ - Poland
+ - Austria
+ - Switzerland
+ - Belgium
+ - France
+ - Luxembourg
+ - Czechia
+ - Netherlands
+
+Would you like to Continue? (Y or N): y
+Which Operation would you like to perform: 2
+What population would you like to test? (whole number): 
+350000000
+
+Countries with population greater than 350000000:
+
+Would you like to Continue? (Y or N): y
+Which Operation would you like to perform: 2
+What population would you like to test? (whole number): 
+30000000
+
+Countries with population greater than 30000000:
+ - Germany
+ - Poland
+ - France
+
+Would you like to Continue? (Y or N): y
+Which Operation would you like to perform: 3
+Which Country would you like to see?: 
+Which Country would you like to see?: 
+Germany                 
+What population would you like to test? (whole number): 
+20000000
+
+Countries that border Germany and population greater than: 20000000
+ - Poland
+ - France
+
+Would you like to Continue? (Y or N): n
